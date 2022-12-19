@@ -1,0 +1,9 @@
+const { readFileSync } = require('fs')
+
+const { main } = JSON.parse(readFileSync('package.json', {
+  encoding: 'utf-8'
+}))
+
+const Application = require(`./${main}`)
+
+new Application()

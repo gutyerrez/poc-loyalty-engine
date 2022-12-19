@@ -1,0 +1,16 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "commonjs",
+  "description": "Some description can be provided here",
+  "main": "src/index.js",
+  "types": "@types/index.d.ts",
+  "engines": {
+    "node": "18.12.1"
+  },
+  "dependencies": {
+    "fastify": "^4.10.2"
+  },
+  "devDependencies": {}
+}

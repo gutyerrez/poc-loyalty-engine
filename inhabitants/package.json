@@ -1,0 +1,15 @@
+{
+  "name": "inhabitants",
+  "version": "0.0.1-ALPHA",
+  "main": "InhabitantsApplication.ts",
+  "license": "MIT",
+  "engines": {
+    "node": "18.12.1"
+  },
+  "dependencies": {
+    "core": "file:../core"
+  },
+  "devDependencies": {
+    "typescript": "~4.9.4"
+  }
+}
